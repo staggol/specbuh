@@ -320,6 +320,12 @@ footer .navbar-burger span {
             background-size: cover;
 }
 
+#adress {
+    width: 20%;
+    background-color: #fff;
+    color: #000;
+}
+
 #form-field {
     margin: 8rem 0;
 }
@@ -460,4 +466,23 @@ footer .cont > a {
     }
 
     
+}
+
+@media only screen and (max-width: 768px) {
+
+    .popup {
+        width: 35rem;
+        padding: 3rem 4rem;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    #fixed-overlay .button {
+        padding: 0 1.25rem;
+    }
+
+    .popup {
+        width: 95%;
+        padding: 1rem 2rem;
+    }
 }
