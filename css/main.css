@@ -324,6 +324,7 @@ footer .navbar-burger span {
     width: 20%;
     background-color: #fff;
     color: #000;
+    margin-top: -7rem;
 }
 
 #form-field {
@@ -464,6 +465,14 @@ footer .cont > a {
         background-color: #263581;
         color: #fff;
     }
+
+    #adress {
+    margin-left: 30%;
+    margin-top: 1rem;
+    width: 40%;
+    background-color: #fff;
+    color: #000;
+}
 
     
 }
